@@ -3,4 +3,12 @@
     height: 64px;
     border: 1px solid black;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header__tab:hover{
+    background-color: #F9F9F9;
+    cursor: pointer;
 }
