@@ -3,6 +3,7 @@
   z-index: -1;
   height: 551px;
   width: 577px;
-  top: -100px;
-  right: 125px;
+  top: 200px;
+  left: 731px;
+  transform: rotate(2.95deg)
 }
