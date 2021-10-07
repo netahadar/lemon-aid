@@ -9,6 +9,7 @@
   padding: 0;
   position: relative;
   text-align: left;
+  display: flex;
 }
 
 .cards__item:hover {
