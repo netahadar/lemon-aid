@@ -1,0 +1,9 @@
+.cards_active {
+    display:grid;
+    grid-gap: 8px 6px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    margin: 39.25px auto 0;
+    transition:ease-in 2s;
+    transition-delay: 2s;
+}
