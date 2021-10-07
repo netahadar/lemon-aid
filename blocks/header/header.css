@@ -1,5 +1,7 @@
 .header{
-    padding: 34px 0 274px 24px;
+    padding: 34.25px 0 274px 12.25px;
     max-width: 1440px;
     margin: 0 auto;
+    display:flex;
+    align-content: center;
 }
