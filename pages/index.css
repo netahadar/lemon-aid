@@ -1,3 +1,20 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 @import url(../blocks/root/root.css);
+
+/*Blocks*/
+
+/* Page */
+@import url(../blocks/page/page.css);
+
+/*Header*/
+@import url(../blocks/header/header.css);
+
+/* Main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__background-image/main__background-image.css);
+@import url(../blocks/main/__subtitle/main__subtitle.css);
+@import url(../blocks/main/__text/main__text.css);
+@import url(../blocks/main/__button/main__button.css);
+@import url(../blocks/main/__columns/main__columns.css);
