@@ -1,0 +1,8 @@
+.cards__image_place_second {
+    height: 300px;
+    width: 330px;
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    z-index: 0;
+}

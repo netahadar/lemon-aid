@@ -1,0 +1,6 @@
+.header__tab {
+    width: 255px;
+    height: 64px;
+    border: 1px solid black;
+    border-radius: 16px;
+}

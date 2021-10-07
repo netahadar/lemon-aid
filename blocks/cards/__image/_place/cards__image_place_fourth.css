@@ -1,0 +1,8 @@
+.cards__image_place_fourth {
+    height: 309px;
+    width: 345px;
+    position: absolute;
+    top: 114px;
+    right: 5px;
+    z-index: 0;
+}

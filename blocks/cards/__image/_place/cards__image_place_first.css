@@ -1,7 +1,8 @@
 .cards__image_place_first {
-    /* height: 428px;
-    width: 428px;
-    margin-top: 16px;
-    margin-left: 16px; */
+    height: 244px;
+    width: 320px;
+    position: absolute;
+    top: 21px;
+    left: 24px;
     z-index: 0;
 }
