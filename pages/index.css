@@ -4,6 +4,9 @@
 
 /*Blocks*/
 
+/*Document*/
+@import url(../blocks/document/document.css);
+
 /* Page */
 @import url(../blocks/page/page.css);
 
@@ -23,7 +26,15 @@
 
 /*Cards*/
 @import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/_active/cards_active.css);
 @import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__image/_place/cards__image_place_first.css);
+@import url(../blocks/cards/__paragraph/cards__paragraph.css);
+@import url(../blocks/cards/__paragraph/_place/cards__paragraph_place_first.css);
+@import url(../blocks/cards/__paragraph/_place/cards__paragraph_place_second.css);
+@import url(../blocks/cards/__paragraph/_place/cards__paragraph_place_third.css);
+@import url(../blocks/cards/__paragraph/_place/cards__paragraph_place_fourth.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__text/cards__text.css);
 

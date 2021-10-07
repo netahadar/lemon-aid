@@ -3,48 +3,105 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>lemonaid</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./pages/index.css">
-    </head>
-     <!--QUESTIONS/TODO: 
+<html lang="en" class="document">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>lemonaid</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <!--QUESTIONS/TODO: 
             Page is not responsive, not sure if we need to accomplish that in this time frame
             Add Help page (desktop 3) and popup modal (desktop 4) when the profile card is clicked
             What is the functionality of the menu? Should the buttons at the top of the desktop 3/4 pages
             toggle when the menu is clicked?
             Add menu buttons to header styles
             -->
-    <body class="root">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="header">
-            <img class="header__icon" src="./images/menu-icon.svg" alt="menu icon">
-            <p class="header__text">menu</p>
-        </header>
-        <main class="page">
-        <section class="main">
-            <h1 class="main__title">lemonaid</h1>
-            <img src="./images/lemon.svg" class="main__background-image" alt="lemon"></img>
-            <div class="main__columns">
-            <h2 class="main__subtitle">When life gives you lemons, make lemonade.</h2>
-            <div>
-                <p class="main__text">
-                Over the past 1.5 years, our daily lives have been profoundly changed by the COVID-19 pandemic. 
-                We strongly believe that everyone is needed help and support. 
-                And one of the tool to cope with the stress is our Lemonaid social service.
-                </p>
-                <button class="main__button" type="submit" id="main-button">Let's try!</button>   
-            </div>    
+  <body class="root">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <header class="header">
+      <img class="header__icon" src="./images/menu-icon.svg" alt="menu icon" />
+      <p class="header__text">menu</p>
+    </header>
+    <main class="page">
+      <section class="main">
+        <h1 class="main__title">lemonaid</h1>
+        <img
+          src="./images/lemon.svg"
+          class="main__background-image"
+          alt="lemon"
+        />
+        <div class="main__columns">
+          <h2 class="main__subtitle">
+            When life gives you lemons, make lemonade.
+          </h2>
+          <div>
+            <p class="main__text">
+              Over the past 1.5 years, our daily lives have been profoundly
+              changed by the COVID-19 pandemic. We strongly believe that
+              everyone is needed help and support. And one of the tool to cope
+              with the stress is our Lemonaid social service.
+            </p>
+            <button class="main__button" type="submit" id="main-button">
+              Let's try!
+            </button>
+          </div>
         </div>
-          
-        </section>
+      </section>
+      <section class="cards">
+        <div class="cards__item">
+          <!-- <img class="cards__image cards__image_place_first" src="images/stressed.png" alt="lemon"> -->
+          <div class="cards__paragraph cards__paragraph_place_first">
+            <h2 class="cards__title">Do you feel stressed?</h2>
+            <p class="cards__text">
+              Tell your story and what you feel during pandemic. Chat with
+              people who can understand you and offer help. You will find that
+              positive mood is a great tool to cope with problems.
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <!-- <img class="cards__image cards__image_place_second" src="images/help.png" alt="lemon"> -->
+          <div class="cards__paragraph cards__paragraph_place_second">
+            <h2 class="cards__title">Are you ready to help?</h2>
+            <p class="cards__text">
+              If you are that person, who is always there for help and want to
+              cheer up people who suffered from COVID, you are on the right
+              track. Share some jokes or memes, or just chat.
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <!-- <img class="cards__image cards__image_place_third" src="images/diary.png" alt="lemon"> -->
+          <div class="cards__paragraph cards__paragraph_place_third">
+            <h2 class="cards__title">COVID-19 Digital Diary?</h2>
+            <p class="cards__text">
+              Write everything you want, track your simptoms, habits, feelings,
+              or physical activities. Diary will remind you when to take
+              medications, or to call a psychologist.
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <!-- <img class="cards__image cards__image_place_fourth" src="images/medical.png" alt="lemon"> -->
+          <div class="cards__paragraph cards__paragraph_place_fourth">
+            <h2 class="cards__title">Medical help online</h2>
+            <p class="cards__text">
+              If you need not only moral support and humour, but also a
+              professional approach, you can easily consult with our
+              specialists.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-        <script src="" ></script>
-    </body>
+    <script src="./index.js"></script>
+  </body>
 </html>
