@@ -1,0 +1,16 @@
+.main__button {
+  background: transparent;
+  border: 1px solid #414141;
+  padding: 20px 42px;
+  border-radius: 12px;
+  width: 220px;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  align-items: right;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #414141;
+  margin-top: 78px; 
+}

@@ -1,0 +1,7 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width: calc(100% - 263.61px);
+    padding: 0 98.61px 0 165px;
+}

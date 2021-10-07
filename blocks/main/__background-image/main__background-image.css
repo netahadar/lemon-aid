@@ -1,0 +1,8 @@
+.main__background-image {
+  position: absolute;
+  z-index: -1;
+  height: 551px;
+  width: 577px;
+  top: -100px;
+  right: 125px;
+}
