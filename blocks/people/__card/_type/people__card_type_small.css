@@ -1,0 +1,11 @@
+.people__card_type_small {
+  width: 285.27px;
+  height: 417.65px;
+  background: linear-gradient(
+      360deg,
+      rgba(37, 37, 33, 0.9) 17.2%,
+      rgba(42, 38, 38, 0.081) 60.8%
+    ),
+    url(../../../../images/kate-smith.jpg);
+    margin-left: 26px;
+}

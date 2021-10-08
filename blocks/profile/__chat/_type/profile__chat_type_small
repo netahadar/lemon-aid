@@ -1,0 +1,15 @@
+.profile__chat {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #F9F9F9;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.20076px;
+  line-height: 13px;
+  letter-spacing: 0.117154px;
+}
+
+.profile__chat::placeholder { 
+  padding-bottom: 22.13px;
+}
