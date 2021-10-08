@@ -1,0 +1,11 @@
+.brief__text {
+  max-width: 1110px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #000;
+  margin:0 auto;
+  padding:0;
+}
