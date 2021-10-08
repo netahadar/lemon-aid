@@ -9,6 +9,7 @@
 @import url(../blocks/header/__tab/header__tab.css);
 @import url(../blocks/header/__tabs-container/header__tabs-container.css);
 @import url(../blocks/header/__avatar/header__avatar.css);
+@import url(../blocks/header/__tab/_visited/header__tab_visited.css);
 
 /*People*/
 @import url(../blocks/people/people.css);
@@ -19,12 +20,23 @@
 
 /*Profile*/
 @import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/_type/profile_type_small.css);
 @import url(../blocks/profile/__chat/profile__chat.css);
 @import url(../blocks/profile/__tools/profile__tools.css);
 @import url(../blocks/profile/__image/profile__image.css);
 @import url(../blocks/profile/__container/profile__container.css);
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__form/profile__form.css);
+@import url(../blocks/people/__card/_type/people__card_type_small.css);
+@import url(../blocks/profile/__chat/_type/profile__chat_type_small);
+@import url(../blocks/profile/__form/_type/profile__form_type_small.css);
+@import url(../blocks/profile/__tools/_type/profile__tools_type_small.css);
+@import url(../blocks/profile/__name/_type/profile__name_type_small.css);
+@import url(../blocks/profile/__icons/_type/profile__icons_type_small.css);
+@import url(../blocks/profile/__icons/_type/profile__icons_type_lemon.css);
+@import url(../blocks/profile/__image/_type/profile__image_type_small.css);
+@import url(../blocks/profile/__emoticon/_type/profile__emoticon_type_small.css);
+
 
 /*Brief*/
 @import url(../blocks/brief/brief.css);
