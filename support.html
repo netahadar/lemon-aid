@@ -4,44 +4,82 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html lang="en" class="document">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>lemonaid</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
-  <body class="root">
-    <!--[if lt IE 7]>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>lemonaid</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="stylesheet" href="./pages/support.css" />
+</head>
+
+<body class="root">
+  <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <header class="header">
-      <div class="header__menu-container">
-        <img class="header__icon" src="./images/menu-icon.svg" alt="menu icon" />
-        <p class="header__menu">menu</p>
+  <header class="header">
+    <div class="header__menu-container">
+      <img class="header__icon" src="./images/menu-icon.svg" alt="menu icon" />
+      <p class="header__menu">menu</p>
+    </div>
+    <div class="header__tabs-container">
+      <div class="header__tab"><img class="header__avatar" src="./images/stressed-avatar.svg" alt="stressed-icon">
+        <p class="header__text">Feel stressed?</p>
       </div>
-      <div class="header__tabs-container">
-        <div class="header__tab"><img class="header__avatar" src="./images/stressed-avatar.svg" alt="stressed-icon"><p class="header__text">Feel stressed?</p></div>
-        <div class="header__tab"><img class="header__avatar" src="./images/help-avatar.svg" alt="help-icon"><p class="header__text">Ready to help?</p></div>
-        <div class="header__tab"><img class="header__avatar" src="./images/diary-avatar.svg" alt="diary-icon"><p class="header__text">COVID-19 diary</p></div>
-        <div class="header__tab"><img class="header__avatar" src="./images/medical-avatar.svg" alt="medical-icon"><p class="header__text">Medical help</p></div>
+      <div class="header__tab"><img class="header__avatar" src="./images/help-avatar.svg" alt="help-icon">
+        <p class="header__text">Ready to help?</p>
       </div>
-    </header>
-    <main class="page">
-      <section class="brief">
-        <p class="brief__text">
-          COVID influenced our lives, but these people are not strong enough to
-          deal with their emotions on their own. They feel depressed and need
-          your support and positive attitude. You can help just by sending them
-          gifs, jokes, songs, memes, funny videos or pictures. You can also chat
-          with them, if they feel alone.
-        </p>
-      </section>
-    </main>
-    <script src="./scripts/support.js"></script>
-  </body>
+      <div class="header__tab"><img class="header__avatar" src="./images/diary-avatar.svg" alt="diary-icon">
+        <p class="header__text">COVID-19 diary</p>
+      </div>
+      <div class="header__tab"><img class="header__avatar" src="./images/medical-avatar.svg" alt="medical-icon">
+        <p class="header__text">Medical help</p>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <section class="brief">
+      <p class="brief__text">
+        COVID influenced our lives, but these people are not strong enough to
+        deal with their emotions on their own. They feel depressed and need
+        your support and positive attitude. You can help just by sending them
+        gifs, jokes, songs, memes, funny videos or pictures. You can also chat
+        with them, if they feel alone.
+      </p>
+    </section>
+    <section class="people">
+      <div class="people__logo">
+        <img src="./images/friendly-avatar.svg" alt="Friendly-woman-icon" class="people__avatar">
+        <p class="people__text">Start supporting people!</p>
+      </div>
+      <div class="people__card">
+        <div class="profile">
+          <div class="profile__container">
+            <img src="./images/nick-kent-img.svg" alt="nick-kent-profile" class="profile__image">
+            <p class="profile__name">Nick Kent</p>
+          </div>
+          <img src="./images/apathy-emoticon.svg" alt="apathy-emoticon" class="profile__emoticon">
+        </div>
+        <form class="profile__form">
+          <input class="profile__chat" type="text" id="chat" name="chat" placeholder="Chat with Nick...">
+        </form>
+        <div class="profile__tools">
+         <img src="./images/jokes.svg" alt="joke-icon" class="profile__tools_type_icon">
+         <img src="./images/meme-icon.svg" alt="meme-icon" class="profile__tools_type_icon">
+         <img src="./images/song-icon.png" alt="song-icon" class="profile__tools-icon">
+         <img src="./images/gif-icon.png" alt="gif-icon" class="profile__tools-icon">
+         <img src="./images/lemon-icon.svg" alt="lemon-icon" class="profile__tools-icon">
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <script src="./scripts/support.js"></script>
+</body>
+
 </html>
