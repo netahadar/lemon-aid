@@ -21,4 +21,4 @@ This project was built using HTML, CSS and JavaScript.
 
 **GitHub Pages**
 
-* View the finished project on [GitHub Pages]()
+* View the finished project on [GitHub Pages](https://edisonsc.github.io/lemon-aid/index.html)
