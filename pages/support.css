@@ -4,12 +4,30 @@
 
 /* Blocks */
 
-/* Page */
-@import url(../blocks/page/page.css);
-
 /*Header*/
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__text/header__text.css);
-@import url(../blocks/header/__tabs-container/header__tabs-container.css);
 @import url(../blocks/header/__tab/header__tab.css);
+@import url(../blocks/header/__tabs-container/header__tabs-container.css);
+@import url(../blocks/header/__avatar/header__avatar.css);
+
+/*People*/
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__logo/people__logo.css);
+@import url(../blocks/people/__card/people__card.css);
+@import url(../blocks/people/__text/people__text.css);
+@import url(../blocks/people/__avatar/people__avatar.css);
+
+/*Profile*/
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__chat/profile__chat.css);
+@import url(../blocks/profile/__tools/profile__tools.css);
+@import url(../blocks/profile/__image/profile__image.css);
+@import url(../blocks/profile/__container/profile__container.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__form/profile__form.css);
+
+/*Brief*/
+@import url(../blocks/brief/brief.css);
+@import url(../blocks/brief/__text/brief__text.css);
+
+
