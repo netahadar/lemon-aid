@@ -10,5 +10,6 @@
 
 .header__tab:hover{
     background-color: #F9F9F9;
+    opacity: .8;
     cursor: pointer;
 }
