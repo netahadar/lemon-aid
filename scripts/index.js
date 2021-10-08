@@ -6,9 +6,4 @@ mainButton.addEventListener("click", () => {
     window.scrollTo(0,document.querySelector(".main").scrollHeight);
 });
 
-const helpCard = document.querySelector(".cards__paragraph_place_second");
-
-helpCard.addEventListener("click", () => {
- open("../support.html", "_blank")
-})
 
