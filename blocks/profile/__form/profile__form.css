@@ -1,0 +1,5 @@
+.profile__form{
+    margin: 0 auto;
+    max-width: calc(100% - 64px);
+    padding: 434px 0 43px;
+}
