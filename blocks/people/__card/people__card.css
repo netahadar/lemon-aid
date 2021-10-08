@@ -1,0 +1,12 @@
+.people__card {
+  width: 487px;
+  height: 713px;
+  background: linear-gradient(
+    360deg,
+    rgba(37, 37, 33, 0.9) 17.2%,
+    rgba(42, 38, 38, 0.081) 60.8%
+  ), url(../../../images/nick-kent.jpg);
+  position: relative;
+  border-radius: 30.5569px;
+  margin-left: 114px;
+}

@@ -1,0 +1,4 @@
+.people__logo {
+  display: flex;
+  flex-direction: column;
+}
